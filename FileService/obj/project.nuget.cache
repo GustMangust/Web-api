@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eQSfpOjw5vrtuB0hI7hMAwqYqvV68XgvRNOSMlYBx6M1DgBovqwE6NSHi4p17dQc4+x+shex3ynXMRLSfex28A==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\Test\\FileService\\FileService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GustMangust\\.nuget\\packages\\system.text.json\\4.7.0\\system.text.json.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

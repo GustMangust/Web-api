@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "f1b7595a-3f66-471c-b05c-39e38ccbbd9c",
+		"name": "TestRequests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": null,\r\n    \"Metafields\": [\r\n        {\r\n            \"Key\": null,\r\n            \"Value\": \"kkk\"\r\n        },\r\n        {\r\n            \"Key\": null,\r\n            \"Value\": \"b\"\r\n        },\r\n        {\r\n            \"Key\": null,\r\n            \"Value\": \"d\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/Product",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44339/IdGenerator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": null,\r\n    \"Metafields\": [\r\n        {\r\n            \"Key\": null,\r\n            \"Value\": \"b\"\r\n        },\r\n        {\r\n            \"Key\": null,\r\n            \"Value\": \"b\"\r\n        },\r\n        {\r\n            \"Key\": null,\r\n            \"Value\": \"d\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44339/IdGenerator",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44339",
+					"path": [
+						"IdGenerator"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44348/File",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": null,\r\n    \"metafields\": [\r\n        {\r\n            \"key\": null,\r\n            \"value\": \"aks\"\r\n        },\r\n        {\r\n            \"key\": null,\r\n            \"value\": \"b\"\r\n        },\r\n        {\r\n            \"key\": null,\r\n            \"value\": \"d\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44348/File",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44348",
+					"path": [
+						"File"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
